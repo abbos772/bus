@@ -1,0 +1,369 @@
+.bus_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 57px;
+  flex-wrap: wrap;
+}
+.bus_a {
+  color: rgb(54, 55, 56);
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+  width: 105px;
+  height: auto;
+  border-bottom: 3px solid rgb(255, 206, 80);
+}
+.bus_text h1 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bus_text p {
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bus_text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.tovar {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 67px;
+  padding: 45px 20px 45px 20px;
+  gap: 200px;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+.card_top {
+  width: 92px;
+  height: 92px;
+  background: rgb(233, 233, 236);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_tovar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.card_tovar h3 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card_tovar p {
+  color: rgb(171, 171, 171);
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cards {
+  display: flex;
+  padding-top: 70px;
+  flex-direction: column;
+  gap: 30px;
+}
+.cards h1 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cards p {
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cardlar {
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 420px;
+  height: 439px;
+  border-radius: 10px;
+
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  /* white */
+  background: rgb(255, 255, 255);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card_text {
+  padding: 20px;
+  line-height: 2.5;
+}
+.card_text h3 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card_text p {
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.etaps {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.etap h1 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.etap_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.etap_text h3 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.etap_text p {
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.etap_card {
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  gap: 60px;
+  padding-left: 90px;
+  background: rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+.tayoq {
+  width: 86px;
+  height: 0;
+  /* yellow */
+  border: 3px solid rgb(255, 206, 80);
+}
+.homiy {
+  padding-top: 120px;
+}
+.homiy h1 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.brends {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  align-items: baseline;
+}
+.brend {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-top: 70px;
+  width: 300px;
+
+  justify-content: center;
+}
+.brend h3 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.brend p {
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.users {
+  padding-top: 130px;
+}
+.users h1 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 90px;
+}
+.user_flex {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.user {
+  width: 605px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  display: flex;
+
+  align-items: center;
+}
+.user_card {
+  width: 210px;
+  height: 51px;
+  background: rgb(11, 117, 114);
+  transform: rotate(90deg);
+  margin-left: -79px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.user_text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.user_img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: -35px;
+}
+.seti {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bigbus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 151px;
+}
+
+@media (max-width: 1200px) {
+  .big {
+    max-width: 1000px;
+  }
+  .brends {
+    justify-content: center;
+  }
+  .cards {
+    align-items: center;
+    justify-content: center;
+  }
+  .cardlar {
+    align-items: center;
+    justify-content: center;
+  }
+  .bus_card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+  }
+  .bus_img .bus {
+    width: 420px;
+  }
+  .tovar {
+    max-width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .etap_card {
+    width: 430px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .big {
+    max-width: 440px;
+  }
+  .etap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+}

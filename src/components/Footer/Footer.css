@@ -1,0 +1,58 @@
+.footer {
+  background: rgb(11, 117, 114);
+  padding: 70px;
+  margin-top: 166px;
+  color: rgb(255, 255, 255);
+}
+.foots {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.foot1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.foot h1 {
+  color: rgb(255, 255, 255);
+  font-family: Familjen Grotesk;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 16%;
+  text-align: left;
+  text-transform: capitalize;
+}
+.foot p {
+  color: rgb(255, 255, 255);
+  font-family: Exo 2;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 16%;
+  text-align: center;
+  text-transform: capitalize;
+}
+button {
+  width: 271px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 150, 25);
+  background: rgb(255, 150, 25);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+  text-transform: uppercase;
+}
